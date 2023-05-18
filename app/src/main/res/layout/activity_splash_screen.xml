@@ -12,7 +12,7 @@
         android:layout_width="250dp"
         android:layout_height="250dp"
 
-        android:src="@drawable/ic_launcher_background"
+        android:src="@drawable/bg_banner"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:indeterminate="true"
-        android:indeterminateTint="#3F51B5"
+        android:indeterminateTint="@color/primary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"

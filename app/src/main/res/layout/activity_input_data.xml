@@ -81,7 +81,7 @@
                             android:layout_gravity="center"
                             android:layout_marginStart="20dp"
                             android:layout_marginEnd="20dp"
-                            android:text="Mohon isi data dibawah ini sesuai dengan KTP Anda"
+                            android:text="Mohon isi data dibawah ini sesuai dengan identitas Anda"
                             android:textColor="@color/white"
                             android:textSize="18sp" />
 
@@ -131,69 +131,26 @@
                             android:layout_weight="1">
 
                             <TextView
-                                android:id="@+id/tvBerangkat"
+                                android:id="@+id/tvTempatwisata"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Keberangkatan"
+                                android:text="Tempat Wisata"
                                 android:textColor="@color/black"
                                 android:textSize="14sp" />
 
                             <androidx.appcompat.widget.AppCompatSpinner
-                                android:id="@+id/spBerangkat"
+                                android:id="@+id/spWisata"
                                 android:layout_width="match_parent"
                                 android:layout_height="45dp"
-                                android:layout_below="@+id/tvBerangkat"
+                                android:layout_below="@+id/tvTempatwisata"
                                 android:layout_marginTop="10dp"
                                 android:background="@drawable/spinner_background"
-                                android:spinnerMode="dropdown" />
+                                android:spinneMode="dropdown" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_below="@+id/tvBerangkat"
-                                android:layout_alignParentEnd="true"
-                                android:layout_centerVertical="true"
-                                android:layout_gravity="center"
-                                android:layout_marginTop="20dp"
-                                android:src="@drawable/ic_spinner" />
-
-                        </RelativeLayout>
-
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_marginTop="14dp"
-                            android:src="@drawable/ic_compare"
-                            app:tint="@color/primary" />
-
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="10dp"
-                            android:layout_weight="1">
-
-                            <TextView
-                                android:id="@+id/tvTujuan"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Tujuan"
-                                android:textColor="@color/black"
-                                android:textSize="14sp" />
-
-                            <androidx.appcompat.widget.AppCompatSpinner
-                                android:id="@+id/spTujuan"
-                                android:layout_width="match_parent"
-                                android:layout_height="45dp"
-                                android:layout_below="@+id/tvTujuan"
-                                android:layout_marginTop="10dp"
-                                android:background="@drawable/spinner_background"
-                                android:spinnerMode="dropdown" />
-
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_below="@+id/tvTujuan"
+                                android:layout_below="@+id/tvTempatwisata"
                                 android:layout_alignParentEnd="true"
                                 android:layout_centerVertical="true"
                                 android:layout_gravity="center"
@@ -307,42 +264,6 @@
                         </LinearLayout>
 
                     </LinearLayout>
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginEnd="20dp">
-
-                        <TextView
-                            android:id="@+id/tvKelas"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Tipe / Kelas"
-                            android:textColor="@color/black"
-                            android:textSize="14sp" />
-
-                        <androidx.appcompat.widget.AppCompatSpinner
-                            android:id="@+id/spKelas"
-                            android:layout_width="match_parent"
-                            android:layout_height="45dp"
-                            android:layout_below="@+id/tvKelas"
-                            android:layout_marginTop="10dp"
-                            android:background="@drawable/spinner_background"
-                            android:spinnerMode="dropdown" />
-
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@+id/tvKelas"
-                            android:layout_alignParentEnd="true"
-                            android:layout_centerVertical="true"
-                            android:layout_gravity="center"
-                            android:layout_marginTop="20dp"
-                            android:src="@drawable/ic_spinner" />
-
-                    </RelativeLayout>
 
                     <LinearLayout
                         android:layout_width="match_parent"

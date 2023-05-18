@@ -49,7 +49,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Azhar Rivaldi"
+                    android:text="HALO NAMA"
                     android:textColor="@color/white"
                     android:textSize="26sp"
                     android:textStyle="bold" />
@@ -84,7 +84,7 @@
                 android:ellipsize="marquee"
                 android:marqueeRepeatLimit="marquee_forever"
                 android:singleLine="true"
-                android:text="Kamu mau pergi kemana?"
+                android:text="Mau Liburan kemana?"
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -113,7 +113,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:text="Pilih Transportasi"
+            android:text="Pilih tempat wisata"
             android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -128,7 +128,7 @@
                 android:orientation="vertical">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cvPesawat"
+                    android:id="@+id/cvBaturraden"
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:layout_margin="10dp"
@@ -147,7 +147,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="10dp"
-                            android:text="Pesawat"
+                            android:text="Baturraden"
                             android:textColor="@color/white"
                             android:textSize="30sp"
                             android:textStyle="bold" />
@@ -179,7 +179,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cvKapal"
+                    android:id="@+id/cvMenarateratai"
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:layout_marginStart="10dp"
@@ -200,7 +200,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="10dp"
-                            android:text="Kapal Laut"
+                            android:text="Menara Teratai"
                             android:textColor="@color/white"
                             android:textSize="30sp"
                             android:textStyle="bold" />
@@ -232,7 +232,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cvKereta"
+                    android:id="@+id/cvMaskemambang"
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:layout_marginStart="10dp"
@@ -253,7 +253,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="10dp"
-                            android:text="Kereta"
+                            android:text="Mas Kemambang"
                             android:textColor="@color/white"
                             android:textSize="30sp"
                             android:textStyle="bold" />
@@ -267,7 +267,7 @@
                             android:backgroundTint="@color/white"
                             android:backgroundTintMode="add"
                             android:padding="6dp"
-                            android:text="Transportasi Darat"
+                            android:text="Mas Kemambang"
                             android:textColor="@color/primary"
                             android:textSize="12sp"
                             android:textStyle="bold" />

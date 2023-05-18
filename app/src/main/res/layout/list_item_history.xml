@@ -23,16 +23,6 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/tvKelas"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Ekonomi"
-                android:textColor="@color/primary"
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-            <TextView
                 android:id="@+id/tvDate"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -114,52 +104,19 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/tvKode1"
+                    android:id="@+id/tvKodewisata"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="JKT"
+                    android:text="BTR"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/tvKeberangkatan"
+                    android:id="@+id/tvWisata"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Jakarta"
-                    android:textColor="@color/black"
-                    android:textSize="16sp" />
-
-            </LinearLayout>
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:src="@drawable/ic_double_arrow"
-                app:tint="@color/black" />
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="end"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/tvKode2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="SMG"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/tvTujuan"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Semarang"
+                    android:text="Baturraden"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
