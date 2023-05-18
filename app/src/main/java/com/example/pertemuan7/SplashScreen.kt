@@ -16,12 +16,12 @@ class SplashScreen : AppCompatActivity() {
         sharedPrefs = getSharedPreferences("DataUser", Context.MODE_PRIVATE)
 
         if(sharedPrefs.contains("user_id")) {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
             finish()
         }else{
             Handler().postDelayed({
-                val intent = Intent(this,LoginActivity::class.java)
+                val intent = Intent(this,MainActivity::class.java)
                 startActivity(intent)
                 finish()
             },2000)

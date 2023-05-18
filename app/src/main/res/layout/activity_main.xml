@@ -162,6 +162,7 @@
                             android:backgroundTintMode="add"
                             android:padding="6dp"
                             android:text="Transportasi Udara"
+                            android:id="@+id/btnTransUdara"
                             android:textColor="@color/primary"
                             android:textSize="12sp"
                             android:textStyle="bold" />
