@@ -44,10 +44,12 @@ class MainActivity : AppCompatActivity() {
             } else {
                 Toast.makeText(this, "Data tidak boleh kosong!!", Toast.LENGTH_SHORT).show()
             }
+
         }
         binding.btnRegister.setOnClickListener {
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }
+
     }
 }
