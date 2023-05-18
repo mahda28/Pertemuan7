@@ -6,15 +6,16 @@ import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.example.pertemuan7.databinding.ActivityMainBinding
+import com.example.pertemuan7.databinding.ActivityLoginBinding
+
 
 class MainActivity : AppCompatActivity() {
-    lateinit var binding: ActivityMainBinding
+    lateinit var binding: ActivityLoginBinding
     lateinit var dbHelper: UserDbHelper
     lateinit var sharedPrefs: SharedPreferences
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         sharedPrefs = getSharedPreferences("DataUser", Context.MODE_PRIVATE)
